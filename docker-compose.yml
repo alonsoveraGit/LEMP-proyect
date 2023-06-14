@@ -13,7 +13,7 @@ services:
         volumes:
             - './app:/var/www/html'
 
-
+ 
     nginx:
         image: nginx:latest
         container_name: nginx
