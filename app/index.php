@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Inicio de sesión exitoso, redirigir al usuario a la página "monitoring"
 	
 	echo "<h1>Nombre de usuario corectos.</h1>";
-	header('Location: monitoring.php');
+
 	
   } else {
     echo "<h1>Nombre de usuario o contraseña incorrectos.</h1>";
